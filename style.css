@@ -1,0 +1,16 @@
+h3{
+    font-size: 25px !important;
+}
+.btn-warning:hover{
+    background-color: rgb(103, 255, 9);
+}
+canvas{
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes example{
+    from{box-shadow: 25px 25px 30px rgb(255, 0, 64);}
+    to{box-shadow: 3px 3px 35px rgb(0, 255, 200);}
+}
